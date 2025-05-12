@@ -1,0 +1,47 @@
+name: Evento
+description: Sugerir um evento.
+title: "[Evento]: "
+labels: ["enhancement"]
+assignees:
+  - adielcristo
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reservar um tempo para fazer essa sugestão!
+        Por favor, preencha o formulário abaixo.
+
+  - type: input
+    id: url
+    attributes:
+      label: Página
+      description: Página do evento.
+      placeholder: ex. https://exemplo.com/evento
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Nome
+      description: Nome do evento.
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: Informe detalhes sobre o evento.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar esta sugestão, você concorda em seguir nosso [Código de Conduta](/docsdevbr/courses/CODE_OF_CONDUCT.md).
+      options:
+        - label: Eu concordo em seguir o Código de Conduta deste projeto.
+          required: true

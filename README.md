@@ -1,9 +1,9 @@
-# [docs.dev.br - Cursos][portal-link]
+# [docs.dev.br - Conteúdo][portal-link]
 
 [![Arquivo README em inglês][readme-badge-en]][readme-lang-en]
 [![Arquivo README em português brasileiro][readme-badge-pt-br]][readme-lang-pt-br]
 
-Dados sobre os cursos listados no site docs.dev.br.
+Conteúdo, documentação e recursos do site docs.dev.br.
 
 ## Apoio
 
@@ -18,7 +18,7 @@ Licenciado sob a [Licença MIT][license-mit].
 
 [license-mit]: LICENSE
 
-[portal-link]: https://docs.dev.br/cursos
+[portal-link]: https://docs.dev.br
 
 [readme-badge-en]: https://img.shields.io/badge/lang-en-blue.svg
 
